@@ -1,0 +1,29 @@
+1)
+ for all i=n down to 1 do
+      for all j=n down to i do
+          print "A[i]A[j]"
+      end for
+  end for
+
+  for outer loop ( i=n, i>=n, i--);
+  for inner loop (j=n, j.=n, j--);
+
+  for each loop the no of iteration are (n-i+1)
+  the i decreases to 1 the no of operation also decreases.
+
+  tot operation= summition of i=1 to n-i+1.
+
+  [n(n+1)(2n+1)]/6
+
+  o(n^2).
+
+  2)
+
+  for i from 0 to n-1:
+        for j from i+1 to n-1:
+            if A[i] + A[j] ==v:
+            return true
+    return false
+
+    
+
